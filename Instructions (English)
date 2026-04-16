@@ -1,0 +1,126 @@
+## 🕹️ How to Use
+
+## Minigame Tab
+
+This tab automatically solves the **QTE minigame** — that circle with a letter that appears when a chest or another rare item pops up.
+
+**How to configure:**
+
+1. Enter Bridger Western and go to a fishing spot.
+2. Open JesterHub and go to the **Minigame** tab.
+3. Click **Define** in the Detection Area section.
+4. The screen will dim — drag to select the area around the white letter inside the circle (only the letter, not the entire circle).
+5. Press **F6** to activate.
+
+> Tip: Select the area very tightly around the letter. The smaller and more precise it is, the better the detection.
+
+**Minigame Tab Options:**
+
+- Speed (ms): Delay before pressing the key. 0 = fastest. 50-80ms feels more human.
+- Blocked Keys: Letters that the macro will never press. Example: enter CQ to never press C or Q.
+- Detection Area: You can also type the coordinates manually in the text field in the format x, y, width, height and confirm with the ✓ button.
+
+---
+
+### Auto Fish Tab
+
+This tab handles fishing completely solo: it casts the bait, waits for the fish to bite by listening to the game audio, and pulls at the right time.
+
+**How to configure (first time):**
+
+1. Open Bridger Western with the game volume turned on.
+2. Go to the water and cast the bait manually once.
+3. Just as the fish is VERY close to biting (you will notice by the "Trail" in the water), start recording, and as soon as it bites, stop recording.
+5. The button will turn green, showing "Calibrated".
+6. Now click "Start auto fishing" or press F7.
+
+**What appears on screen during fishing:**
+
+- Current Status: Casting → Waiting for bite → Pulling.
+- Weather: The macro automatically detects if it is raining and adjusts sensitivity.
+- Casts / Catches: Counter for how many times it cast and how many fish were caught.
+- Vol / Det: Bars showing game volume and detection level in real-time.
+
+**Sensitivity:**
+
+The sensitivity slider controls how "strict" the macro is when detecting a bite:
+
+- Loose (left): Detects more easily — might pick up wrong sounds in noisy environments.
+- Strict (right): Only triggers with sounds very similar to the bite — recommended if the macro is giving false positives.
+
+> 💡 If the macro is pulling at the wrong time (confusing other sounds with a bite): move the slider to the right. If it is missing fish, move it to the left.
+
+---
+
+### Corpse Tab
+
+This function monitors if a corpse has spawned on your server and sends you a Discord notification when it does.
+
+**How to configure:**
+
+1. In the Corpse tab, paste your Discord Webhook link in the indicated field.
+2. Enter your Discord User ID to be mentioned in the message (optional).
+3. Click "Select area" and mark the region of the screen where the corpse spawn notification (IT APPEARS AGAIN) appears in-game.
+4. Activate the detector with the Activate button.
+
+**How to create a Discord Webhook:**
+1. Open the Discord channel settings.
+2. Go to Integrations → Webhooks → New Webhook.
+3. Copy the link and paste it into JesterHub.
+
+---
+
+## ⚙️ Settings and Profiles
+
+Click the gear icon (⚙️) at the top of the macro to open the settings.
+
+**What you can change:**
+
+- Language: Portuguese or English.
+
+**Profiles (saving settings):**
+
+JesterHub has 3 profile slots. Each profile saves all your settings — sensitivity, speed, blocked keys, hotkeys, and more.
+
+- Save: Click the slot number to save the current profile.
+- Load: Click a previously saved slot to load the settings.
+
+---
+
+## 🔔 Notifications and Hotkeys
+
+JesterHub shows notifications in the corner of the screen when you activate or deactivate a function — this is especially useful when the macro is minimized.
+
+| Key | Function |
+|---|---|
+| F6 | Toggle Minigame On/Off |
+| F7 | Toggle Auto Fish On/Off |
+
+---
+
+## ❓ Common Issues
+
+The macro doesn't detect the letter / shows "Not defined"
+→ Redefine the detection area. Select the area very tightly around the white letter inside the circle.
+
+Auto Fish is pulling at the wrong time / detecting non-bite sounds
+→ Move the Sensitivity slider to the right (more strict). If the problem persists, try recalibrating the sound in a quieter environment in-game.
+
+Auto Fish is missing fish / not detecting the bite
+→ Check if the game volume is high enough. Move the Sensitivity slider to the left. Try recalibrating with a clearer bite sound.
+
+The macro is too slow to press the key in the minigame
+→ Reduce the Speed in the Minigame tab (lower value = faster). 0ms is the fastest possible.
+
+My key isn't working
+→ The HWID changes if you switch computers or reinstall Windows. Please contact me.
+
+---
+
+## 📞 Support
+
+Issues or questions? Contact me (Neox) via Discord.
+
+---
+
+*JesterHub — made by neox*
