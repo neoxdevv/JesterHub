@@ -1,0 +1,128 @@
+## 🕹️ Como usar 
+
+## Aba Minigame
+
+Esta aba resolve o **minigame QTE** automaticamente — aquele círculo com uma letra que aparece quando vem um báu ou outro item raro.
+
+**Como configurar:**
+
+1. Entre no Bridger Western e vá para um ponto de pesca
+2. Abra o JesterHub e vá para a aba **Minigame**
+3. Clique em **Definir** na seção *Área de Detecção*
+4. A tela vai escurecer — arraste para selecionar a área **em volta da letra branca** dentro do círculo (só a letra, não o círculo inteiro)
+5. Pressione **F6** para ativar
+
+>  **Dica:** Selecione a área bem justa ao redor da letra. Quanto menor e mais preciso, melhor a detecção.
+
+**Opções da aba Minigame:**
+
+- **Velocidade (ms):** Atraso antes de apertar a tecla. `0` = mais rápido. `50-80ms` parece mais humano.
+- **Teclas bloqueadas:** Letras que o macro nunca vai apertar. Exemplo: coloque `CQ` para nunca pressionar C ou Q.
+- **Área de detecção:** Você também pode digitar as coordenadas manualmente no campo de texto no formato `x, y, largura, altura` e confirmar com o botão ✓
+
+---
+
+### Aba Auto Pesca
+
+Esta aba faz a pesca **completamente sozinha**: lança a isca, espera o peixe morder ouvindo o som do jogo, e puxa na hora certa.
+
+**Como configurar (primeira vez):**
+
+1. Abra o Bridger Western com o **volume do jogo ligado**
+2. Vá até a água e lance a isca manualmente uma vez
+3. Assim que o peixe estiver BEM proximo de morder (Voce pecebe pelo "Rastro" Na agua) voce começa a gravar, e assim que ele morder, voce para de gravar.
+5. O botão vai ficar verde mostrando **"Calibrado"**
+6. Agora clique em **"Iniciar pesca automática"** ou pressione **F7**
+
+
+**O que aparece na tela durante a pesca:**
+
+- **Estado atual:** Lançando → Aguardando mordida → Puxando
+- **Clima:** O macro detecta automaticamente se está chovendo e ajusta a sensibilidade
+- **Casts / Fisgados:** Contador de quantas vezes lançou e quantos peixes pegou
+- **Vol / Det:** Barras que mostram o volume do jogo e o nível de detecção em tempo real
+
+**Sensibilidade:**
+
+O slider de sensibilidade controla o quão "exigente" o macro é para detectar a mordida:
+
+- **Solto (esquerda):** Detecta mais facilmente — pode pegar sons errados em ambientes barulhentos
+- **Estrito (direita):** Só dispara com sons bem parecidos com a mordida — recomendado se o macro estiver dando falso positivo
+
+> 💡 **Se o macro estiver puxando na hora errada** (confundindo outros sons com mordida): mova o slider para a direita. Se estiver perdendo peixes, mova para a esquerda.
+
+---
+
+### Aba Corpse
+
+Esta função monitora se um corpse spawnou no seu server, e quando spawnar, te envia uma notificação no Discord
+
+**Como configurar:**
+
+1. Na aba **Corpse**, coloque o link do seu **Webhook do Discord** no campo indicado
+2. Coloque seu **User ID do Discord** para ser mencionado na mensagem (opcional)
+3. Clique em **"Selecionar área"** e marque a região da tela onde o aviso do spawn do corpse (IT APPEARS AGAIN) aparece no jogo
+4. Ative o detector com o botão **Ativar**
+
+**Como criar um Webhook no Discord:**
+1. Abra as configurações do canal no Discord
+2. Vá em **Integrações → Webhooks → Novo Webhook**
+3. Copie o link e cole no JesterHub
+
+
+## ⚙️ Configurações e Perfis
+
+Clique no ícone de engrenagem (⚙️) no topo do macro para abrir as configurações.
+
+**O que você pode mudar:**
+
+- **Idioma:** Português ou Inglês
+
+**Perfis (salvar configurações):**
+
+O JesterHub tem **3 slots de perfil**. Cada perfil salva todas as suas configurações — sensibilidade, velocidade, teclas bloqueadas, teclas de atalho e muito mais.
+
+- **Salvar:** Clique no número do slot para salvar o perfil atual
+- **Carregar:** Clique em um slot já salvo para carregar as configurações
+
+>
+
+---
+
+## 🔔 Notificações e Atalhos
+
+O JesterHub mostra **notificações no canto da tela** quando você ativa ou desativa alguma função — isso é especialmente útil quando o macro está minimizado.
+
+
+| Tecla | Função |
+|---|---|
+| `F6` | Liga/desliga o Minigame |
+| `F7` | Liga/desliga a Auto Pesca |
+
+
+## ❓ Problemas Frequentes
+
+**O macro não detecta a letra / fica escrito "Não definida"**  
+→ Redefina a área de detecção. Selecione a área bem justa em volta da letra branca dentro do círculo.
+
+**A Auto Pesca está puxando na hora errada / detectando sons que não são mordida**  
+→ Mova o slider de Sensibilidade para a direita (mais estrito). Se o problema persistir, tente recalibrar o som em um ambiente mais silencioso no jogo.
+
+**A Auto Pesca está perdendo peixes / não detecta a mordida**  
+→ Verifique se o volume do jogo está alto o suficiente. Mova o slider de Sensibilidade para a esquerda. Tente recalibrar com o som da mordida mais nítido.
+
+**O macro está muito lento para apertar a tecla no minigame**  
+→ Reduza a **Velocidade** na aba Minigame (valor menor = mais rápido). `0ms` é o mais rápido possível.
+
+**Minha chave não funciona**  
+→ O HWID muda se você trocar de computador ou reinstalar o Windows. Entre em contato comigo.
+
+---
+
+## 📞 Suporte
+
+Problemas ou dúvidas? Entre em contato comigo (Neox) pelo  discord.
+
+---
+
+*JesterHub — made by neox*
