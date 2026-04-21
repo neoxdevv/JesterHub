@@ -3,56 +3,49 @@
 
 
 
+⭐RECOMENDO USAR O SOM DO ROBLOX NO 3, ESTAREM FORA DE TELA CHEIA, E NÃO USAR NENHUMA VERSÃO MODIFICADA DO ROBLOX.⭐
+
+
 ## 🕹️ Como usar 
 
 ## Aba Minigame
 
 Esta aba resolve o **minigame QTE** automaticamente — aquele círculo com uma letra que aparece quando vem um báu ou outro item raro.
 
-**Como configurar:**
+⚠️RECOMENDO FORTEMENTE USAR ALGUMAS DAS DUAS RESOLUÇÕES ABAIXO⚠️
+⚠️SE VOCE USAR ALGUMA DAS RESOLUÇÕES ABAIXO, USE AS COORDENADAS QUE EU ESTOU OFERECENDO, VOCE TERA MENOS TRABALHO PARA USAR O MACRO.⚠️
+
+
+RESOLUÇÃO 1920 X 1080: 924 499 71 75 🟪
+RESOLUÇÃO 1360 X 768: 654 347 54 64  🟪
+
+
+
+**Como configurar Caso voce não consiga usar essas duas resoluções:**
 
 1. Entre no Bridger Western e vá para um ponto de pesca
 2. Abra o JesterHub e vá para a aba **Minigame**
-3. Clique em **Definir** na seção *Área de Detecção*
-4. A tela vai escurecer — arraste para selecionar a área **em volta da letra branca** dentro do círculo (só a letra, não o círculo inteiro)
-5. Pressione **F6** para ativar
+3. Espere ate que um minigame apareça, então aperte no botão definir, e selecione uma area em volta APENAS da letra que ta aparecendo no minigame, não e pra selecionar o circulo todo, ou uma area grande.
 
->  **Dica:** Selecione a área bem justa ao redor da letra. Quanto menor e mais preciso, melhor a detecção.
 
 **Opções da aba Minigame:**
 
-- **Velocidade (ms):** Atraso antes de apertar a tecla. `0` = mais rápido. `50-80ms` parece mais humano.
+- **Velocidade**.
 - **Teclas bloqueadas:** Letras que o macro nunca vai apertar. Exemplo: coloque `CQ` para nunca pressionar C ou Q.
-- **Área de detecção:** Você também pode digitar as coordenadas manualmente no campo de texto no formato `x, y, largura, altura` e confirmar com o botão ✓
+- **Área de detecção:** E Na Area de detecção que voce digita as coordenadas que eu deixei no inicio desse guia (COLOQUEI LA EM CIMA) ✓
 
 ---
 
 ### Aba Auto Pesca
 
-Esta aba faz a pesca **completamente sozinha**: lança a isca, espera o peixe morder ouvindo o som do jogo, e puxa na hora certa.
-
-**Como configurar (primeira vez):**
-
-1. Abra o Bridger Western com o **volume do jogo ligado**
-2. Vá até a água e lance a isca manualmente uma vez
-3. Assim que o peixe estiver BEM proximo de morder (Voce pecebe pelo "Rastro" Na agua) voce começa a gravar, e assim que ele morder, voce para de gravar.
-5. O botão vai ficar verde mostrando **"Calibrado"**
-6. Agora clique em **"Iniciar pesca automática"** ou pressione **F7**
-
-
-**O que aparece na tela durante a pesca:**
-
-- **Estado atual:** Lançando → Aguardando mordida → Puxando
-- **Clima:** O macro detecta automaticamente se está chovendo e ajusta a sensibilidade
-- **Casts / Fisgados:** Contador de quantas vezes lançou e quantos peixes pegou
-- **Vol / Det:** Barras que mostram o volume do jogo e o nível de detecção em tempo real
+- Caso voce esteja Sofrendo com muitos falsos positivos, voce pode tentar calibrar a pesca usando o barra de sensibilidade, e tambem gravando o som da fisgada do peixe atravez do botão de gravação (Deixa mais certeiro.)
 
 **Sensibilidade:**
 
 O slider de sensibilidade controla o quão "exigente" o macro é para detectar a mordida:
 
-- **Solto (esquerda):** Detecta mais facilmente — pode pegar sons errados em ambientes barulhentos
-- **Estrito (direita):** Só dispara com sons bem parecidos com a mordida — recomendado se o macro estiver dando falso positivo
+- **( Pra esquerda):** Detecta mais facilmente — pode pegar sons errados em ambientes barulhentos
+- **(Pra direita):** Só dispara com sons bem parecidos com a mordida — recomendado se o macro estiver dando falso positivo
 
 > 💡 **Se o macro estiver puxando na hora errada** (confundindo outros sons com mordida): mova o slider para a direita. Se estiver perdendo peixes, mova para a esquerda.
 
@@ -92,19 +85,6 @@ O JesterHub tem **3 slots de perfil**. Cada perfil salva todas as suas configura
 
 >
 
----
-
-## 🔔 Notificações e Atalhos
-
-O JesterHub mostra **notificações no canto da tela** quando você ativa ou desativa alguma função — isso é especialmente útil quando o macro está minimizado.
-
-
-| Tecla | Função |
-|---|---|
-| `F6` | Liga/desliga o Minigame |
-| `F7` | Liga/desliga a Auto Pesca |
-
-
 ## ❓ Problemas Frequentes
 
 **O macro não detecta a letra / fica escrito "Não definida"**  
@@ -116,8 +96,6 @@ O JesterHub mostra **notificações no canto da tela** quando você ativa ou des
 **A Auto Pesca está perdendo peixes / não detecta a mordida**  
 → Verifique se o volume do jogo está alto o suficiente. Mova o slider de Sensibilidade para a esquerda. Tente recalibrar com o som da mordida mais nítido.
 
-**O macro está muito lento para apertar a tecla no minigame**  
-→ Reduza a **Velocidade** na aba Minigame (valor menor = mais rápido). `0ms` é o mais rápido possível.
 
 **Minha chave não funciona**  
 → O HWID muda se você trocar de computador ou reinstalar o Windows. Entre em contato comigo.
