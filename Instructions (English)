@@ -1,86 +1,73 @@
-⚠️THE MACRO HAS THE SAME BEHAVIOR AS A VIRUS, IT READS YOUR SCREEN TO MAKE THE FISHING MINIGAME, AND USES YOUR PC'S AUDIO TO KNOW WHEN THE FISH HAS HOOKED, AND PULL, THEREFORE WINDOWS DEFENDER BLOCKS, I RECOMMEND THAT YOU DISABLE WINDOWS DEFENDER⚠️ 
+⚠️THE MACRO BEHAVES JUST LIKE A VIRUS, IT CAPTURES YOUR SCREEN TO PLAY THE FISHING MINIGAME, AND USES YOUR PC'S AUDIO TO DETECT WHEN THE FISH TAKES THE BAIT AND PULLS, SO WINDOWS DEFENDER BLOCKS IT. I RECOMMEND THAT YOU DISABLE WINDOWS DEFENDER⚠️ 
 ⚠️IF YOU DON'T DISABLE IT, THE MACRO WILL PROBABLY BE DELETED⚠️
 
 
 
+⭐I RECOMMEND USING ROBLOX SOUND SETTING 3, NOT BEING IN FULL-SCREEN MODE, AND NOT USING ANY MODIFIED VERSIONS OF ROBLOX.⭐
 
 
-
-## 🕹️ How to Use
+## 🕹️ How to use 
 
 ## Minigame Tab
 
-This tab automatically solves the **QTE minigame** — that circle with a letter that appears when a chest or another rare item pops up.
+This tab automatically solves the **QTE minigame**—that circle with a letter that appears when a chest or other rare item appears.
 
-**How to configure:**
+⚠️I STRONGLY RECOMMEND USING ONE OF THE TWO RESOLUTIONS BELOW⚠️
+⚠️IF YOU USE ONE OF THE RESOLUTIONS BELOW, USE THE COORDINATES I’M PROVIDING; IT WILL BE EASIER TO USE THE MACRO.⚠️
 
-1. Enter Bridger Western and go to a fishing spot.
-2. Open JesterHub and go to the **Minigame** tab.
-3. Click **Define** in the Detection Area section.
-4. The screen will dim — drag to select the area around the white letter inside the circle (only the letter, not the entire circle).
-5. Press **F6** to activate.
 
-> Tip: Select the area very tightly around the letter. The smaller and more precise it is, the better the detection.
+RESOLUTION 1920 X 1080: 924 499 71 75 🟪
+RESOLUTION 1360 X 768: 654 347 54 64  🟪
 
-**Minigame Tab Options:**
 
-- Speed (ms): Delay before pressing the key. 0 = fastest. 50-80ms feels more human.
-- Blocked Keys: Letters that the macro will never press. Example: enter CQ to never press C or Q.
-- Detection Area: You can also type the coordinates manually in the text field in the format x, y, width, height and confirm with the ✓ button.
 
----
+**How to set it up if you can’t use these two resolutions:**
+
+1. Log into Bridger Western and go to a fishing spot
+2. Open JesterHub and go to the **Minigame** tab
+3. Wait until a minigame appears, then click the “Define” button, and select an area ONLY around the letter appearing in the minigame—do not select the entire circle or a large area.
+
+
+**Minigame tab options:**
+
+- **Speed**.
+- **Blocked keys:** Letters that the macro will never press. Example: enter `CQ` to never press C or Q.
+- **Detection area:** In the Detection area, you enter the coords that i left on the beging of this guide 
 
 ### Auto Fish Tab
 
-This tab handles fishing completely solo: it casts the bait, waits for the fish to bite by listening to the game audio, and pulls at the right time.
-
-**How to configure (first time):**
-
-1. Open Bridger Western with the game volume turned on.
-2. Go to the water and cast the bait manually once.
-3. Just as the fish is VERY close to biting (you will notice by the "Trail" in the water), start recording, and as soon as it bites, stop recording.
-5. The button will turn green, showing "Calibrated".
-6. Now click "Start auto fishing" or press F7.
-
-**What appears on screen during fishing:**
-
-- Current Status: Casting → Waiting for bite → Pulling.
-- Weather: The macro automatically detects if it is raining and adjusts sensitivity.
-- Casts / Catches: Counter for how many times it cast and how many fish were caught.
-- Vol / Det: Bars showing game volume and detection level in real-time.
 
 **Sensitivity:**
 
-The sensitivity slider controls how "strict" the macro is when detecting a bite:
+The sensitivity slider controls how “sensitive” the macro is to detecting a bite:
 
-- Loose (left): Detects more easily — might pick up wrong sounds in noisy environments.
-- Strict (right): Only triggers with sounds very similar to the bite — recommended if the macro is giving false positives.
+- **(To the left):** Detects more easily — may pick up false sounds in noisy environments
+- **(To the right):** Only triggers on sounds very similar to a bite — recommended if the macro is giving false positives
+- If you're experiencing a lot of false positives, you can try calibrating the bite detection using the sensitivity slider, and also by recording the sound of a fish biting using the record button (this makes it more accurate).
 
-> 💡 If the macro is pulling at the wrong time (confusing other sounds with a bite): move the slider to the right. If it is missing fish, move it to the left.
 
 ---
 
 ### Corpse Tab
 
-This function monitors if a corpse has spawned on your server and sends you a Discord notification when it does.
+This feature monitors whether a corpse has spawned on your server, and when it does, it sends you a notification on Discord
 
 **How to configure:**
 
-1. In the Corpse tab, paste your Discord Webhook link in the indicated field.
-2. Enter your Discord User ID to be mentioned in the message (optional).
-3. Click "Select area" and mark the region of the screen where the corpse spawn notification (IT APPEARS AGAIN) appears in-game.
-4. Activate the detector with the Activate button.
+1. In the **Corpse** tab, enter your **Discord Webhook** link in the designated field
+2. Enter your **Discord User ID** to be mentioned in the message (optional)
+3. Click **“Select Area”** and mark the region of the screen where the corpse spawn notification (IT APPEARS AGAIN) appears in the game
+4. Activate the detector with the **Activate** button
 
-**How to create a Discord Webhook:**
-1. Open the Discord channel settings.
-2. Go to Integrations → Webhooks → New Webhook.
-3. Copy the link and paste it into JesterHub.
+**How to create a Webhook on Discord:**
+1. Open the channel settings in Discord
+2. Go to **Integrations → Webhooks → New Webhook**
+3. Copy the link and paste it into JesterHub
 
----
 
 ## ⚙️ Settings and Profiles
 
-Click the gear icon (⚙️) at the top of the macro to open the settings.
+Click the gear icon (⚙️) at the top of the macro to open
 
 **What you can change:**
 
@@ -103,25 +90,6 @@ JesterHub shows notifications in the corner of the screen when you activate or d
 |---|---|
 | F6 | Toggle Minigame On/Off |
 | F7 | Toggle Auto Fish On/Off |
-
----
-
-## ❓ Common Issues
-
-The macro doesn't detect the letter / shows "Not defined"
-→ Redefine the detection area. Select the area very tightly around the white letter inside the circle.
-
-Auto Fish is pulling at the wrong time / detecting non-bite sounds
-→ Move the Sensitivity slider to the right (more strict). If the problem persists, try recalibrating the sound in a quieter environment in-game.
-
-Auto Fish is missing fish / not detecting the bite
-→ Check if the game volume is high enough. Move the Sensitivity slider to the left. Try recalibrating with a clearer bite sound.
-
-The macro is too slow to press the key in the minigame
-→ Reduce the Speed in the Minigame tab (lower value = faster). 0ms is the fastest possible.
-
-My key isn't working
-→ The HWID changes if you switch computers or reinstall Windows. Please contact me.
 
 ---
 
